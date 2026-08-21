@@ -1,0 +1,12 @@
+Cho danh sách định danh sau, sinh viên xác định định danh nào hợp lệ, định danh nào sai và giải thích lý do:
+
+1diem               gia-tri     _tam_thoi     Diem_TB
+class               so luong    MAX_SPEED     diemTB
+2024_data tong$     sinhVien1
+
+-Định danh hợp lệ :"_tam_thoi", "Diem_TB", "class", "MAX_SPEED", "diemTB", "sinhVien1".
+-Lý do hợp lệ : định danh hợp lệ chỉ được bắt đầu bằng chữ cái in hoa hoặc in thường hoặc bắt đầu bằng dấu gạch dưới(_)
+cấu trúc định danh không được có các kí tự khác ngoài dấu gạch dưới(_) hoặc viết liền nhau.
+
+-Định danh không hợp lệ : "1diem", "gia-tri", "so luong", "2024_data tong$".
+-Lý do không hợp lệ: các định danh trên thường bắt đầu bằng số hay trong đó có các kí tự không hợp lệ như gạch ngang(-), khoảng cách( ).
