@@ -1,9 +1,9 @@
-so_luot_truy_cap = 0 # bien global
+so_luot_truy_cap = 0
 def tang_luot_truy_cap():
     global so_luot_truy_cap
     so_luot_truy_cap += 1
 def vi_du_bien_local():
-    so_luot_truy_cap = 100 # day la bien LOCAL, khac voi bien global cung ten
+    so_luot_truy_cap = 100
     print("Ben trong ham, bien local =", so_luot_truy_cap)
 tang_luot_truy_cap()
 tang_luot_truy_cap()
@@ -28,6 +28,6 @@ sap_xep_theo_diem = sorted(danh_sach_sv, key=lambda sv: sv["diem"])
 sap_xep_giam_dan = sorted(danh_sach_sv, key=lambda sv: sv["diem"], reverse=True)
 for sv in sap_xep_theo_diem:
     print(sv["ten"], "-", sv["diem"])
-print("--- Giam dan ---")   
+print("--- Giam dan ---")
 for sv in sap_xep_giam_dan:
     print(sv["ten"], "-", sv["diem"])

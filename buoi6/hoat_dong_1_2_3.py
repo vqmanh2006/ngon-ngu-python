@@ -21,22 +21,21 @@ print(uscln(24, 36))
 print(bscnn(4, 6))
 
 print(kiem_tra_nguyen_to(29))
-print(kiem_tra_so_hoan_thien(28)) 
+print(kiem_tra_so_hoan_thien(28))
 
 def in_loi_chao(ten):
     print(f"Xin chao, {ten}!")
-    return # ham khong tra ve gia tri (tra ve None)
+    return
 def chia_lay_thuong_du(a, b):
-    return a // b, a % b # tra ve nhieu gia tri qua tuple
-in_loi_chao("An")
+    return a // b, a % b
 thuong, du = chia_lay_thuong_du(17, 5)
 print(f"Thuong: {thuong}, du: {du}")
 
 def gioi_thieu(ten, tuoi=18, lop="Chua ro"):
     print(f"Ten: {ten} - Tuoi: {tuoi} - Lop: {lop}")
-gioi_thieu("An") # dung het gia tri mac dinh
-gioi_thieu("Binh", 20) # ghi de tuoi
-gioi_thieu("Chi", lop="CNTT01") # dung tham so tu khoa, bo qua tuoi
+gioi_thieu("An")
+gioi_thieu("Binh", 20)
+gioi_thieu("Chi", lop="CNTT01")
 gioi_thieu(ten="Dung", lop="CNTT02", tuoi=19)
 
 def tinh_tong(*args):
