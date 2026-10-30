@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'c:\python\form_dang_nhap.ui..ui'
+# Form implementation generated from reading ui file 'c:\python\buoi10\form_dang_nhap.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
